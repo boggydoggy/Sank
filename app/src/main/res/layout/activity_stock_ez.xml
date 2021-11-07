@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="535dp"
+    android:orientation="vertical"
+    android:background="@color/bg"
+    tools:context=".stockEz">
+
+    <Button
+        android:id="@+id/stCancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/quiz_button"
+        android:onClick="toHome" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/steQ"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:text="@string/steQ"
+            android:fontFamily="@font/bmjua_ttf"
+            android:textColor="@color/colorPrimary"
+            android:textSize="25sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/stockEz1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/quiz_button"
+                android:fontFamily="@font/bmjua_ttf"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_margin="10dp"
+                android:onClick="wrong"
+                android:text="개미" />
+
+            <Button
+                android:id="@+id/stockEz2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/quiz_button"
+                android:fontFamily="@font/bmjua_ttf"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_margin="10dp"
+                android:onClick="wrong"
+                android:text="주주" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/stockEz3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/quiz_button"
+                android:fontFamily="@font/bmjua_ttf"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_margin="10dp"
+                android:onClick="wrong"
+                android:text="펀드" />
+
+            <Button
+                android:id="@+id/stockEz4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/quiz_button"
+                android:fontFamily="@font/bmjua_ttf"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_margin="10dp"
+                android:onClick="correct"
+                android:text="주식" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

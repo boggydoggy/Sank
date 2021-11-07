@@ -1,0 +1,51 @@
+<resources>
+    <color name="bg">#FFFFFF</color>
+    <string name="name">Sank</string>
+    <string name="app_name">Sank</string>
+    <string name="title_activity_quiz">QuizActivity</string>
+    <string name="return_main"> home </string>
+    <string name="balance">계좌 =</string>
+    <string name="account_balance">현금 =</string>
+    <string name="instruction">설명 및 퀴즈</string>
+    <string name="fund">주식</string>
+    <string name="transfer">입/출금</string>
+    <string name="loan">대출</string>
+    <string name="insterest">이자</string>
+    <string name="withIns">남에게 돈을 빌려 쓴 대가로 치르는 일정한 비율의 돈\n 원래 돈에 붙은 이자의 비율을 이율이라고 한다.\n\n 단리란, 원금에서만 붙는 이자를 말하며
+        \n복리는 원금에 이자를 더하여 다음 달의 원금으로 하는 이자 계산법이다</string>
+    <string name="savIns">적금이란 금융기관에 일정 금액을 일정 기간동안 넣은 다음에 찾는 저금을 말한다. 일반적인 예금보다 이율이 높다</string>
+    <string name="seQ">몇 개월 혹은 몇 년동안 일정 금액을 넣은 다음 찾는 저금을 뭐라고 부르는가?</string>
+    <string name="shQ">다음 중 옳은 것을 고르시오\n1.이율은 단리로 적용된다\n2.이율은 일반 예금(입금)보다 낮다\n
+        3.적금을 해지하지 않아도 도중에 출금이 가능하다\n4.일 단위로 기간이 책정된다. </string>
+    <string name="loanIns">대출이란 돈이나 물건을 빌려오는 것을 말한다\n금융권에 따라 대출 이자와 절차가 다르며 절차가 복잡한 대신
+        이율이 낮은 제 1금융권부터 제 3금융권까지 존재한다</string>
+    <string name="leq">다음 중 대출의 형태가 아닌 것을 고르시오.\n1.철수가 영희에게 3천원을 빌림.\n2.지수가 민수의 책을 가져감.\n
+        3.짱구가 맹구에게 장난감을 가져가고 3일 뒤에 돌려주기로 함.\n4.영희가 철수에게 5만원을 빌리고 3만원을 갚음.</string>
+    <string name="lhq">금융권에 대한 설명으로 옳은 것은?\n1 카카오뱅크 같은 인터넷 은행들은 제 1금융권이다.\n2 이율이 제일 낮은 곳은 제 2금융권이다.\n
+        3 대출을 할 때 제일 빠르게 대출되는 곳은 제 1금융권이다.\n4 일반적인 은행들은 제 3금융권이다.</string>
+    <string name="stockIns">주식이란 주식회사의 자본을 이루는 기본 단위로 회사에 투자할 사람을 모을 때 이용된다.\n주식을 가지고 있는 사람을 주주라고 부르며
+    주식을 가지고 있는 회사에 이익이 발생했을 시 주주에게도 이익이 오게 된다.</string>
+    <string name="steQ">회사에서 투자자를 모으고자 할 때 발행하는 것을 뭐라고 부르는가?</string>
+    <string name="sthQ">다음 중 틀린 것을 고르시오\n 1.주식을 주권이라고 부른다. \n2.주식을 가지고 있는 사람을 주주라고 부른다.\n3.주주는 자신이 가진 주식의 가치만큼 해당 회사에 권리를
+     가지고 있다.\n 4.주권과 주주권은 다른 의미이다.</string>
+    <string name="remit">송금은 돈을 다른 사람에게 보내는 것을 의미한다. \n계좌를 통해서 보낼 경우 계좌이체라고도 부르고 \n
+        다른 이의 계좌에 현금만 보내는 것을 무통장송금, 무통장입금이라고 한다. \n 또한 이체 시 타은행이 한번이라도 거치게 되면 타은행 수수료가 붙는다.</string>
+    <string name="remitEQ">다음 중 다른 뜻을 지닌 단어는 무엇인가?</string>
+    <string name="remitHQ"> 타 은행으로 계좌이체를 할 시 수수료가 500원이고 동 은행으로 계좌이체 시 수수료가 100원이라고 할 때\n
+        A 은행 ATM기를 이용하여 B 은행 계좌에서 A 은행 계좌로 계좌이체를 하면 수수료는 얼마가 드는가?</string>
+    <string name="bitcoin">암호 화폐는 컴퓨터 등에 정보 형태로 남아 실물 없이 사이버상으로만 거래되는 전자화폐의 일종으로,
+        각국 정부나 중앙은행이 발행하는 일반 화폐와 달리 처음 고안한 사람이 정한 규칙에 따라 가치가 매겨지고 정부가 가치를 증명해주지 않는다.\n
+        암호화폐는 현실 화폐에 비해 거래비용을 대폭 절감할 수 있고 가상으로 저장되기 떄문에 보관비용이 들지 않으며 도난과 분실의 위험이 적다.</string>
+    <string name="bitEQ">사이버상으로만 거래되는 전자화폐의 일종을 무엇이라고 부르는가?</string>
+    <string name="bitHQ">암호화폐에 관한 설명으로 옳지 않은 것은?\n1.정부에서 가치를 보장하지 않는다.\n2.암호화 기술을 이용한다.\n
+        3.가치저장 수단으로 뛰어난 성능을 지녔다.\n 4.정부에서 원한다면 제작자가 정한 규칙을 변경할 수 있다.</string>
+    <string name="Ez">쉬운 문제</string>
+    <string name="Hz">어려운 문제</string>
+    <string name="loanRepayment">대출/상환</string>
+    <string name="loanvalue">얼마를 빌리시겠습니까?</string>
+    <string name="Repqyment">상환</string>
+    <color name="bgcolor">#FFFFFF</color>
+    <string name="ok">확인</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

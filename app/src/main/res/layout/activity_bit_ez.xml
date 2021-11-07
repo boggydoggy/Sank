@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="535dp"
+    android:background="@color/bg"
+    android:orientation="vertical"
+    tools:context=".bitEz">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/quiz_button"
+        android:onClick="toHome" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:fontFamily="@font/bmjua_ttf"
+            android:text="@string/bitEQ"
+            android:textColor="@color/colorPrimary"
+            android:textSize="25sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bitEz1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/quiz_button"
+                android:fontFamily="@font/bmjua_ttf"
+                android:onClick="correct"
+                android:text="암호 화폐"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/bitEz2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/quiz_button"
+                android:fontFamily="@font/bmjua_ttf"
+                android:onClick="wrong"
+                android:text="원시 화폐"
+                android:textColor="@color/colorPrimaryDark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bitEz3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/quiz_button"
+                android:fontFamily="@font/bmjua_ttf"
+                android:onClick="wrong"
+                android:text="지역 화폐"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/bitEz4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/quiz_button"
+                android:fontFamily="@font/bmjua_ttf"
+                android:onClick="wrong"
+                android:text="세계 화폐"
+                android:textColor="@color/colorPrimaryDark" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

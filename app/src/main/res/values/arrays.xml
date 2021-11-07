@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name = "coin">
+        <item>비트코인</item>
+        <item>이더리움</item>
+        <item>비트코인캐시</item>
+        <item>리플</item>
+        <item>이오스</item>
+    </string-array>
+
+</resources>

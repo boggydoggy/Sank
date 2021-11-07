@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="535dp"
+    android:orientation="vertical"
+    android:background="@color/bg"
+    tools:context=".Saving">
+
+    <Button
+        android:id="@+id/savCancel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:background="@drawable/quiz_button"
+        android:onClick="onClose" />
+
+    <TextView
+        android:id="@+id/savIns"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/savIns"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="@font/bmjua_ttf"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/savEz"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/quiz_button"
+            android:fontFamily="@font/bmjua_ttf"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_margin="5dp"
+            android:onClick="popEz"
+            android:text="@string/Ez" />
+
+        <Button
+            android:id="@+id/savHz"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/quiz_button"
+            android:fontFamily="@font/bmjua_ttf"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_margin="5dp"
+            android:onClick="popHz"
+            android:text="@string/Hz" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="535dp"
+    android:background="@color/bg"
+    android:orientation="vertical"
+    tools:context=".bitcoin">
+
+    <Button
+        android:id="@+id/bitCancel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:background="@drawable/quiz_button"
+        android:fontFamily="@font/bmjua_ttf"
+        android:onClick="onClose" />
+
+    <TextView
+        android:id="@+id/loanIns"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:fontFamily="@font/bmjua_ttf"
+        android:text="@string/loanIns"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bitEQ"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/quiz_button"
+            android:fontFamily="@font/bmjua_ttf"
+            android:onClick="popEz"
+            android:text="@string/Ez"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <Button
+            android:id="@+id/bitHQ"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/quiz_button"
+            android:fontFamily="@font/bmjua_ttf"
+            android:onClick="popHz"
+            android:text="@string/Hz"
+            android:textColor="@color/colorPrimaryDark" />
+    </LinearLayout>
+</LinearLayout>

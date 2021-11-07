@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Instruction">
+
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/titlebutton"
+        android:fontFamily="@font/bmjua_ttf"
+        android:onClick="onBackButtonClicked"
+        android:text="@string/return_main"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/Inst1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:background="@drawable/buttonshape"
+            android:fontFamily="@font/bmjua_ttf"
+            android:onClick="popWith"
+            android:text="@string/insterest" />
+
+        <Button
+            android:id="@+id/Inst2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:background="@drawable/buttonshape"
+            android:fontFamily="@font/bmjua_ttf"
+            android:onClick="popSav"
+            android:text="적금" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/Inst3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:background="@drawable/buttonshape"
+            android:fontFamily="@font/bmjua_ttf"
+            android:onClick="popLoan"
+            android:text="대출" />
+
+        <Button
+            android:id="@+id/Inst4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:background="@drawable/buttonshape"
+            android:fontFamily="@font/bmjua_ttf"
+            android:onClick="popStock"
+            android:text="주식" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/Inst5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:background="@drawable/buttonshape"
+            android:fontFamily="@font/bmjua_ttf"
+            android:onClick="popRemit"
+            android:text="송금" />
+
+        <Button
+            android:id="@+id/Inst6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:background="@drawable/buttonshape"
+            android:fontFamily="@font/bmjua_ttf"
+            android:onClick="popBitcoin"
+            android:text="암호화폐" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"/>
+
+</LinearLayout>

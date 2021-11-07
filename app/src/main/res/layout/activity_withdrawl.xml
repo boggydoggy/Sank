@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="535dp"
+    android:background="@color/bg"
+    android:orientation="vertical">
+    tools:context=".withdrawl">
+
+    <Button
+        android:id="@+id/withCancel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_weight="4"
+        android:background="@drawable/quiz_button"
+        android:fontFamily="@font/bmjua_ttf"
+        android:onClick="onClose" />
+
+    <TextView
+        android:id="@+id/withIns"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:fontFamily="@font/bmjua_ttf"
+        android:text="@string/withIns"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/withEQ"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/quiz_button"
+            android:fontFamily="@font/bmjua_ttf"
+            android:onClick="popEz"
+            android:text="@string/Ez"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <Button
+            android:id="@+id/withHQ"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/quiz_button"
+            android:fontFamily="@font/bmjua_ttf"
+            android:onClick="popHz"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="@string/Hz" />
+    </LinearLayout>
+</LinearLayout>
